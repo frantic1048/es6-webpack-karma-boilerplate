@@ -15,9 +15,9 @@ Install dependencies:
 npm Install
 ```
 
-Write your code in `/src`, keep `/src/main.js` as your entry script.
+Write your code under `/src/script`, ensure `/src/script/index.js` as your entry script.
 
-Write your tests in `/test/mainSpec.js`.
+Write your tests in `/test/spect/mainSpec.js`.
 
 # Usage
 
