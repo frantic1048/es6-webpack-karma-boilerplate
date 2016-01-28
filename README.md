@@ -12,7 +12,7 @@ git clone --depth 0 https://github.com/frantic1048/es6-webpack-karma-biolerplate
 Install dependencies:
 
 ```bash
-npm Install
+npm install
 ```
 
 Write your code under `/src/script`, ensure `/src/script/index.js` as your entry script.

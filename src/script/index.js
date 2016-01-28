@@ -7,4 +7,4 @@ import 'babel-polyfill';
 import ala from './ala.js';
 import boya from './boya.js';
 
-export {ala, boya};
+export default {ala, boya};

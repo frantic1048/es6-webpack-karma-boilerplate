@@ -3,7 +3,7 @@
 // see the doc to learn how to write tests
 // http://jasmine.github.io/
 
-var mylib = require('../../src/script/index');
+import mylib from '../../src/script/index';
 
 describe("ala", function() {
   it("should be a function", function() {

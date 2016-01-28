@@ -31,8 +31,8 @@ module.exports = function(config) {
         noAutoWrap: true,
         // these babel options will be passed only to isparta and not to babel-loader
         babel: {
-          presets: ['es2015', 'stage-0']
-        }
+          presets: ['es2015', 'stage-0'],
+        },
       },
 
       module: {
@@ -51,7 +51,7 @@ module.exports = function(config) {
             test: /\.js$/,
             include: path.resolve('src/script/'),
             loader: 'isparta'
-          }
+          },
         ],
       },
     },
@@ -64,7 +64,7 @@ module.exports = function(config) {
     reporters: ['spec', 'coverage'],
 
     coverageReporter: {
-      type : 'text',
+      type: 'text',
     },
 
     port: 33339,
@@ -75,7 +75,7 @@ module.exports = function(config) {
 
     browsers: ['Chrome'],
 
-    singleRun: true
+    singleRun: true,
 
   });
 };
