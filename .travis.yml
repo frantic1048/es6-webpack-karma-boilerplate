@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "node"
+install:
+  - npm install codeclimate-test-reporter
+  - npm install
+script: gulp ci
+after_script:
+  - codeclimate-test-reporter < coverage/PhantomJS*/lcov.info
+addons:
+    code_climate:
+        repo_token: b5aa631d28674bd196b0d43835bb5386e815bd2a59b4200774de114cd97fa16c
