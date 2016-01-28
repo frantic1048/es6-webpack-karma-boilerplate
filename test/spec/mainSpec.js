@@ -5,24 +5,24 @@
 
 import mylib from '../../lib/index';
 
-describe("ala", function() {
-  it("should be a function", function() {
+describe('ala', () => {
+  it('should be a function', () => {
     expect(mylib.ala).toEqual(jasmine.any(Function));
   });
-  it("should return 'ala'", function() {
+  it("should return 'ala'", () => {
     expect(mylib.ala()).toBe('ala');
   });
 });
 
-describe("boya", function() {
-  it("should be an object", function() {
+describe('boya', () => {
+  it('should be an object', () => {
     expect(mylib.boya).toEqual(jasmine.any(Object));
   });
-  describe('.yaharo', function() {
-    it("should be a function", function() {
+  describe('.yaharo', () => {
+    it('should be a function', () => {
       expect(mylib.boya.yaharo).toEqual(jasmine.any(Function));
     });
-    it("should return 'boya'", function() {
+    it("should return 'boya'", () => {
       expect(mylib.boya.yaharo()).toBe('boya');
     });
   });

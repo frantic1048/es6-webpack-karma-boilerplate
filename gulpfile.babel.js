@@ -32,6 +32,22 @@ gulp.task('test', (callback) => {
   server.start();
 });
 
+gulp.task('ci', (callback) => {
+  const server = new Server({
+    configFile: app.test.confSrc,
+    singleRun: true,
+    autoWatch: false,
+    coverageReporter: {
+      reporters: [
+        { type: 'text' },
+        { type: 'lcov' },
+      ],
+    },
+  });
+  server.on('run_complete', () => { callback(); });
+  server.start();
+});
+
 gulp.task('tdd', (callback) => {
   const server = new Server({
     configFile: app.test.confSrc,

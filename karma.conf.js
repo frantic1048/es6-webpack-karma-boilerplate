@@ -1,9 +1,12 @@
+/* eslint-disable no-var, func-names */
 // Karma configuration
 var path = require('path');
 
 module.exports = function(config) {
   config.set({
     basePath: '',
+
+    port: 33339,
 
     frameworks: ['jasmine'],
 
@@ -50,7 +53,7 @@ module.exports = function(config) {
           {
             test: /\.js$/,
             include: path.resolve('lib/'),
-            loader: 'isparta'
+            loader: 'isparta',
           },
         ],
       },
@@ -58,7 +61,7 @@ module.exports = function(config) {
 
     webpackMiddleware: {
       // webpack-dev-middleware configuration
-      noInfo: true
+      noInfo: true,
     },
 
     reporters: ['spec', 'coverage'],
@@ -66,8 +69,6 @@ module.exports = function(config) {
     coverageReporter: {
       type: 'text',
     },
-
-    port: 33339,
 
     logLevel: config.LOG_INFO,
 
