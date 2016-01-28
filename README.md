@@ -1,4 +1,5 @@
 # es6-webpack-karma-biolerplate
+![license](https://img.shields.io/github/license/frantic1048/es6-webpack-karma-biolerplate.svg?style=flat-square)
 [![codeclimate analysis](https://img.shields.io/codeclimate/github/frantic1048/es6-webpack-karma-biolerplate.svg?style=flat-square)](https://codeclimate.com/github/frantic1048/es6-webpack-karma-biolerplate)
 [![testing coverage](https://img.shields.io/codeclimate/coverage/github/frantic1048/es6-webpack-karma-biolerplate.svg?style=flat-square)](https://travis-ci.org/frantic1048/es6-webpack-karma-biolerplate)
 [![travis-ci](https://img.shields.io/travis/frantic1048/es6-webpack-karma-biolerplate.svg?style=flat-square)](https://travis-ci.org/frantic1048/es6-webpack-karma-biolerplate)
@@ -57,3 +58,7 @@ gulp ci
 ```
 
 It will generate extra lcov report under `coverage/`.This repo use this to report coverage from Travis CI builds to CodeClimate, take a look in `.travis.yml` and `.codeclimate.yml` for reference.
+
+# LICENSE
+
+WTFPL
