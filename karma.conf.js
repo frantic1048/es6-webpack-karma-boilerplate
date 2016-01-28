@@ -42,7 +42,7 @@ module.exports = function(config) {
             test: /\.js$/,
             exclude: [
               path.resolve('src/script/'),
-              path.resolve('node_modules/')
+              path.resolve('node_modules/'),
             ],
             loader: 'babel',
           },
@@ -73,7 +73,7 @@ module.exports = function(config) {
 
     autoWatch: false,
 
-    browsers: ['Chrome'],
+    browsers: ['PhantomJS'],
 
     singleRun: true,
 
