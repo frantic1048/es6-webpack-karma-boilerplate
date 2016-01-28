@@ -1,4 +1,7 @@
 # es6-webpack-karma-biolerplate
+[![codeclimate analysis](https://img.shields.io/codeclimate/github/frantic1048/es6-webpack-karma-biolerplate.svg?style=flat-square)](https://codeclimate.com/github/frantic1048/es6-webpack-karma-biolerplate)
+[![travis-ci](https://img.shields.io/travis/frantic1048/es6-webpack-karma-biolerplate.svg?style=flat-square)](https://travis-ci.org/frantic1048/es6-webpack-karma-biolerplate)
+[![david-dm](https://img.shields.io/david/frantic1048/es6-webpack-karma-biolerplate.svg?style=flat-square)](https://david-dm.org/frantic1048/es6-webpack-karma-biolerplate)
 A minimal ES6 with Karma-Jasmine testing on browser biolerplate, aims to develop a library which runs on browsers.
 
 # Prepare
