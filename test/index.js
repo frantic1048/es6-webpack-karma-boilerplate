@@ -1,9 +1,9 @@
-// require all `test/spec/**/Spec.js`
-const testsContext = require.context('./spec/', true, /Spec\.js$/);
+// require all `test/spec/*.js`
+const testsContext = require.context('./spec', true, /\.js$/);
 
 testsContext.keys().forEach(testsContext);
 
-// require all `src/script/**/index.js`
-const componentsContext = require.context('../src/script/', true, /index\.js$/);
+// require all `lib/**/index.js`
+const libContext = require.context('../lib/', true, /index\.js$/);
 
-componentsContext.keys().forEach(componentsContext);
+libContext.keys().forEach(libContext);

@@ -41,7 +41,7 @@ module.exports = function(config) {
           {
             test: /\.js$/,
             exclude: [
-              path.resolve('src/script/'),
+              path.resolve('lib/'),
               path.resolve('node_modules/'),
             ],
             loader: 'babel',
@@ -49,7 +49,7 @@ module.exports = function(config) {
           // transpile and instrument only testing sources with isparta
           {
             test: /\.js$/,
-            include: path.resolve('src/script/'),
+            include: path.resolve('lib/'),
             loader: 'isparta'
           },
         ],
@@ -71,11 +71,7 @@ module.exports = function(config) {
 
     logLevel: config.LOG_INFO,
 
-    autoWatch: false,
-
     browsers: ['PhantomJS'],
-
-    singleRun: true,
 
   });
 };
