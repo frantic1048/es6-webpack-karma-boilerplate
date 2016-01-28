@@ -1,6 +1,6 @@
 {
   "name": "es6-webpack-karma-biolerplate",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "A minimal ES6/Webpack/Karma-Jasmine biolerplate",
   "main": "lib/index.js",
   "scripts": {

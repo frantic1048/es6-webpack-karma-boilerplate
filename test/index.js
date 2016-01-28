@@ -1,5 +1,5 @@
 // require all `test/spec/*.js`
-const testsContext = require.context('./spec', true, /\.js$/);
+const testsContext = require.context('./spec/', true, /\.js$/);
 
 testsContext.keys().forEach(testsContext);
 
