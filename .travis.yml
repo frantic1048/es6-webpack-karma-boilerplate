@@ -9,4 +9,4 @@ after_script:
   - codeclimate-test-reporter < coverage/PhantomJS*/lcov.info
 addons:
     code_climate:
-        repo_token: b5aa631d28674bd196b0d43835bb5386e815bd2a59b4200774de114cd97fa16c
+        repo_token: ea0be133cd5495b497a122f413eea650652cda91b493fad5fd9749c3998df98e
